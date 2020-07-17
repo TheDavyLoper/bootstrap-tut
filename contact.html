@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+      <html lang="en">
+      
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My App</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+      </head>
+      
+      <body>
+        <div class="container-fluid">
+    
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">ShopAholics</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mobile-menu"><span class="navbar-toggler-icon"></span></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mobile-menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h2 class="mt-2 text-center">Contact Us</h2>
+      <div class="mycontainer">
+        <form action="" class="my-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" name="name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" class="form-control">
+          <div class="invalid-feedback">Invalid Email</div>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" placeholder="Enter your message"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender" class="form-control">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div class="form-check">
+          <div class="row">
+            <div class="col-4">
+              <input type="checkbox" id="satisfied" class="form-check-input">
+              <label for="satisfied" class="form-check-label">satisfied</label>
+            </div>
+            <div class="col-8">
+             <input type="checkbox" id="dissatified" class="form-check-input">
+             <label for="dissatified" class="form-check-label">Will shop with you again</label>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+               <div class="form-group mt-3">
+                 <button type="submit" class="btn btn-outline-success form-control" id="btn">Submit</button>
+               </div>
+          </div>
+          
+        </div>
+     
+        </form>
+      </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/contact.js"></<script></script>
+</body>
+
+</html>

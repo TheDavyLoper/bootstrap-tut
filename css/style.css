@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+.mycontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.my-form {
+  width: 320px;
+  margin: 0 auto;
+}

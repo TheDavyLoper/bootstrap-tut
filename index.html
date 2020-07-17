@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My App</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">ShopAholics</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#mobile-menu"><span class="navbar-toggler-icon"></span></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mobile-menu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="modal" id="modal">
+      <div class="modal-dialogue">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title text-primary">Hello David</h2>
+          </div>
+          <div class="modal-body">
+            <p class="text-success">Please confirm your subscription</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="close btn btn-secondary" data-dismiss="modal">Confirm</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--<div class="container-fluid">-->
+      <div class="row mt-2">
+        <div class="col">
+          <div class="alert alert-success alert-dismissable fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
+            <h2 class="alert-heading">New Products Alert!</h2>
+            <p>
+              <a class="alert-link" href="#">Click Here</a> for a list of our new products
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal">show modal</button>
+        </div>
+      </div>
+    <!--</div>-->
+    
+    
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
